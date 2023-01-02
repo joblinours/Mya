@@ -1,0 +1,23 @@
+instruction d'utilisation de : MYA ransomware
+
+cette solution comprend 2 fichiers distinc 
+- server.c
+- mya.c
+
+confiuragtion du server : 
+
+1) compiler et lancer le server 
+	a) definir l'ip sur l'ip statique du serveur sur la 192.168.1.1/24
+	b) gcc -o server server.c
+	c) ./server
+
+configuer le ransomware :
+
+1) compiler et lancer MYA en mode chiffrement :
+	a) gcc -o mya mya.c -lcrypto
+	b) ./mya e "chemin d'acces"
+
+2) lancer le mode de déchiffrement
+	a) ./mya d "chemin d'acces" "clé de chiffrement" "IV"
+
+ATTENTION : lors du passage de la clé et de l'IV ne pas faire de copier/coller sinon le déchiffrement ne fonctionne pas

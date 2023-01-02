@@ -1,0 +1,23 @@
+instructions for use of : MYA ransomware
+
+this solution includes 2 separate files 
+- server.c
+- mya.c
+
+Configure the server : 
+
+1) compile and launch the server 
+	a) set the ip to the static ip of the server on 192.168.1.1/24
+	b) gcc -o server server.c
+	c) ./server
+
+Configure the ransomware :
+
+1) compile and run MYA in encryption mode:
+	a) gcc -o mya mya.c -lcrypto
+	b) ./mya e "path"
+
+2) start the decryption mode
+	a) ./mya d "path" "encryption key" "IV
+
+WARNING: when passing the key and the IV do not copy/paste otherwise decryption will not work
