@@ -1,5 +1,10 @@
 # MYA Ransomware - README
 
+##WARNING: 
+This is a school project. It is strictly prohibited to use this code for any malicious purposes. The only permitted use is for educational purposes. 
+Additionally, the code may not function perfectly, and we are not responsible for any data loss or destruction caused by its use.
+
+
 ## Overview
 The MYA ransomware solution consists of two separate C files: `server.c` and `mya.c`. The ransomware encrypts files and sends the encryption key to a remote server for secure storage. It also supports decryption by providing the correct key and initialization vector (IV).
 
