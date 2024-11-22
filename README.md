@@ -1,6 +1,6 @@
 # MYA Ransomware - README
 
-##WARNING: 
+## WARNING:
 This is a school project. It is strictly prohibited to use this code for any malicious purposes. The only permitted use is for educational purposes. 
 Additionally, the code may not function perfectly, and we are not responsible for any data loss or destruction caused by its use.
 
