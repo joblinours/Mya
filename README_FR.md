@@ -97,5 +97,3 @@ La solution MYA ransomware se compose de deux fichiers séparés en C : `server.
 ## Licence
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
 ```
-
-Le README en français comprend maintenant un avertissement clair dès le début concernant l'utilisation du projet, en soulignant qu'il s'agit d'un projet scolaire et qu'il ne doit en aucun cas être utilisé de manière malveillante.
